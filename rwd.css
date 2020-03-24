@@ -223,10 +223,23 @@
  #omos {
      margin-top: 100px;
      margin-bottom: 80px;
-     background-color: rgba(242, 165, 200, 0.51);
  }
 
- .bg {}
+ #produkt2 h2 {
+     margin-top: 70px;
+ }
+
+ #produkt1 {
+     background-color: rgba(163, 211, 191, 0.58);
+ }
+
+ #produkt2 {
+     background-color: rgba(242, 165, 200, 0.58);
+ }
+
+ #produkt3 {
+     background-color: rgba(165, 216, 228, 0.58);
+ }
 
  .btn {
      background-color: var(--pink);
@@ -243,6 +256,8 @@
      transform: scale(1.02);
 
  }
+
+
 
  /**************************************************/
  /* Small devices (landscape phones, 576px and up) */
@@ -265,6 +280,62 @@
 
      #slogan {
          margin-top: -225px;
+     }
+
+     /*
+     #produkt1 {
+         background-image: url(illustrationer/trekant_green.png);
+         width: 100vw;
+         background-size: cover;
+     }
+*/
+
+     #produkt1 h2 {
+         margin-top: 20px;
+     }
+
+     #produkt1 .paper {
+         margin-top: -100px;
+     }
+
+     .tekst {
+         margin-top: 90px;
+     }
+
+     /*
+     #produkt2 {
+         background-image: url(illustrationer/trekant_pink1.png);
+         width: 100vw;
+         background-size: cover;
+     }
+*/
+
+     #produkt2 .paper {
+         margin-top: -110px;
+     }
+
+     #produkt2 h2 {
+         margin-top: 20px;
+     }
+
+     #produkt2 .tekst {
+         margin-left: 70px;
+     }
+
+     /*
+     #produkt3 {
+         background-image: url(illustrationer/trekant_blue.png);
+         width: 100vw;
+         background-size: cover;
+     }
+*/
+
+     #produkt3 .paper {
+         margin-top: -70px;
+     }
+
+     #produkt3 h2 {
+         margin-top: 20px;
      }
  }
 
@@ -289,6 +360,36 @@
 
      #slogan {
          margin-top: -290px;
+     }
+
+     #produkt1 .paper {
+         max-width: 40vw;
+         margin-top: -100px;
+         margin-left: 60px;
+     }
+
+     #produkt1 .tekst {
+         margin-left: 170px;
+     }
+
+     #produkt2 .paper {
+         max-width: 40vw;
+         margin-left: 80px;
+         margin-top: -150px;
+     }
+
+     #produkt2 .tekst {
+         margin-left: 200px;
+     }
+
+     #produkt3 .paper {
+         max-width: 40vw;
+         margin-top: -100px;
+         margin-left: 60px;
+     }
+
+     #produkt3 .tekst {
+         margin-left: 170px;
      }
 
  }
