@@ -26,12 +26,13 @@
  h1 {
      font-family: var(--bebas);
      font-size: 3rem;
+     color: var(--green);
  }
 
  h2 {
      font-family: var(--montserrat);
      font-size: 1.8rem;
-     font-weight: 200i;
+     font-weight: 200;
      font-style: italic;
  }
 
@@ -45,6 +46,25 @@
  p {
      font-family: var(--lato);
      font-size: 1rem;
+ }
+
+ #produkt1 h1 {
+     color: white;
+ }
+
+ #produkt1 h2 {
+     color: var(--green);
+     font-weight: 500;
+ }
+
+ #produkt2 h2 {
+     color: var(--pink);
+     font-weight: 500;
+ }
+
+ #produkt3 h2 {
+     color: var(--blue);
+     font-weight: 500;
  }
 
 
@@ -100,6 +120,10 @@
      background-size: 0% 5px;
      transition: background-size .3s;
      color: var(--pink);
+ }
+
+ .menu_links a:hover {
+     color: var(--green);
  }
 
  #burger_knap {
@@ -213,19 +237,20 @@
 
 
  #slogan {
-     margin-top: -170px;
+     margin-top: -320px;
+     margin-bottom: 60px;
  }
 
  #slogan h3 {
      color: var(--pink);
+     font-weight: 200;
  }
 
- #omos {
-     margin-top: 100px;
-     margin-bottom: 80px;
+ #hero {
+     margin-bottom: 200px;
  }
 
- #produkt2 h2 {
+ .produkt2 h2 {
      margin-top: 70px;
  }
 
@@ -240,6 +265,7 @@
  #produkt3 {
      background-color: rgba(165, 216, 228, 0.58);
  }
+
 
  .btn {
      background-color: var(--pink);
@@ -258,14 +284,13 @@
  }
 
 
-
  /**************************************************/
  /* Small devices (landscape phones, 576px and up) */
  /**************************************************/
  @media (min-width: 576px) {
 
      #slogan {
-         margin-top: -185px;
+         margin-top: -370px;
      }
  }
 
@@ -279,64 +304,24 @@
      }
 
      #slogan {
-         margin-top: -225px;
+         margin-top: -380px;
      }
 
-     /*
-     #produkt1 {
-         background-image: url(illustrationer/trekant_green.png);
-         width: 100vw;
-         background-size: cover;
-     }
-*/
-
-     #produkt1 h2 {
-         margin-top: 20px;
-     }
 
      #produkt1 .paper {
          margin-top: -100px;
      }
 
-     .tekst {
-         margin-top: 90px;
-     }
-
-     /*
-     #produkt2 {
-         background-image: url(illustrationer/trekant_pink1.png);
-         width: 100vw;
-         background-size: cover;
-     }
-*/
 
      #produkt2 .paper {
          margin-top: -110px;
      }
 
-     #produkt2 h2 {
-         margin-top: 20px;
-     }
-
-     #produkt2 .tekst {
-         margin-left: 70px;
-     }
-
-     /*
-     #produkt3 {
-         background-image: url(illustrationer/trekant_blue.png);
-         width: 100vw;
-         background-size: cover;
-     }
-*/
 
      #produkt3 .paper {
          margin-top: -70px;
      }
 
-     #produkt3 h2 {
-         margin-top: 20px;
-     }
  }
 
  /**************************************************/
@@ -345,12 +330,13 @@
  @media (min-width: 992px) {
 
      #slogan {
-         margin-top: -260px;
+         margin-top: -410px;
      }
 
      #omos {
          margin-top: 150px;
      }
+
  }
 
  /**************************************************/
@@ -359,37 +345,12 @@
  @media (min-width: 1200px) {
 
      #slogan {
-         margin-top: -290px;
+         margin-top: -480px;
+         margin-bottom: 200px;
      }
 
-     #produkt1 .paper {
-         max-width: 40vw;
-         margin-top: -100px;
-         margin-left: 60px;
-     }
-
-     #produkt1 .tekst {
-         margin-left: 170px;
-     }
-
-     #produkt2 .paper {
-         max-width: 40vw;
-         margin-left: 80px;
-         margin-top: -150px;
-     }
-
-     #produkt2 .tekst {
-         margin-left: 200px;
-     }
-
-     #produkt3 .paper {
-         max-width: 40vw;
-         margin-top: -100px;
-         margin-left: 60px;
-     }
-
-     #produkt3 .tekst {
-         margin-left: 170px;
+     #slogan h3 {
+         font-size: 2rem;
      }
 
  }
