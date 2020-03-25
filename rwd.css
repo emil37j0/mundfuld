@@ -299,6 +299,10 @@
 
  }
 
+ #produkt2 .paper {
+     margin-top: -190px;
+ }
+
 
  /**************************************************/
  /* Small devices (landscape phones, 576px and up) */
@@ -367,6 +371,11 @@
 
      #slogan h3 {
          font-size: 2rem;
+     }
+
+     #instagram {
+         margin-left: 100px;
+         margin-right: 100px;
      }
 
  }
