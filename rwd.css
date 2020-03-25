@@ -267,10 +267,26 @@
  }
 
 
- .btn {
+ #produkt1 .btn {
+     background-color: var(--green);
+     color: white;
+     border-color: var(--green);
+     transition: 0.5s ease all;
+
+ }
+
+ #produkt2 .btn {
      background-color: var(--pink);
      color: white;
      border-color: var(--pink);
+     transition: 0.5s ease all;
+
+ }
+
+ #produkt3 .btn {
+     background-color: var(--blue);
+     color: white;
+     border-color: var(--blue);
      transition: 0.5s ease all;
 
  }
@@ -279,7 +295,7 @@
      background-color: var(--green);
      color: white;
      border-color: var(--green);
-     transform: scale(1.02);
+     transform: scale(1.1);
 
  }
 
