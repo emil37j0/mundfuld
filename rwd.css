@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-family: var(--montserrat);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 200;
     font-style: italic;
 }
@@ -40,6 +40,47 @@ p {
     font-family: var(--lato);
     font-size: 1rem;
 }
+
+#instagram a {
+    text-decoration: none;
+}
+
+#footer {
+    background-color: var(--green);
+    padding-top: 40px;
+    color: white;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    transition: 0.5s ease all;
+}
+
+.fa:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+    background-color: var(--green);
+    color: white;
+}
+
+.fa-instagram {
+    background-color: var(--green);
+    color: white;
+}
+
+
 
 #produkt1 h1 {
     color: white;
@@ -75,11 +116,11 @@ body {
 }
 
 .fade-in {
-    animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
 }
 
 
