@@ -101,6 +101,9 @@ p {
     font-weight: 500;
 }
 
+#hero_pil {
+    display: none;
+}
 
 body {
     margin: 0px;
@@ -455,7 +458,7 @@ header {
 
     #slogan {
         margin-top: -480px;
-        margin-bottom: 200px;
+        margin-bottom: 130px;
     }
 
     #slogan h3 {
@@ -466,5 +469,11 @@ header {
         margin-left: 100px;
         margin-right: 100px;
     }
+
+    #hero_pil {
+        display: block;
+        width: 40px;
+    }
+
 
 }
